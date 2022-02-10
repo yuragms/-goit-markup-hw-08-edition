@@ -22,13 +22,16 @@
   height: 70px;
 }
 .advant__box {
-  width: 450px;
-  height: 120px;
-  background-color: var(--bg-white-section-color);
+  margin-bottom: 30px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  // width: 450px;
+  height: 120px;
+
+  border-radius: 4px;
+  background-color: var(--bg-white-section-color);
 }
 
 .advant__item:not(:last-child) {

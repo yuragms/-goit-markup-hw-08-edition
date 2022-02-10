@@ -815,9 +815,7 @@ body {
 }
 
 .advant__box {
-  width: 450px;
-  height: 120px;
-  background-color: var(--bg-white-section-color);
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -827,7 +825,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 30px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--bg-white-section-color);
 }
 
 .advant__item:not(:last-child) {
@@ -973,7 +973,7 @@ body {
 }
 
 .team__item {
-  width: 450px;
+  max-width: 450px;
 }
 
 .team__item:not(:last-child) {
@@ -1053,7 +1053,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .team__item {
-    width: 354px;
+    max-width: 354px;
   }
   .team__list {
     display: -webkit-box;
@@ -1098,9 +1098,9 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -1282,7 +1282,7 @@ address {
 }
 
 .footer-form__input {
-  width: 450px;
+  width: 100%;
   height: 50px;
   padding-left: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1369,6 +1369,9 @@ address {
   .footer-form__container {
     padding-bottom: 0px;
     margin-top: 60px;
+  }
+  .footer-form__input {
+    width: 358px;
   }
 }
 
